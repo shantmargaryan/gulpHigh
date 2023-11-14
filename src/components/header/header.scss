@@ -1,0 +1,4 @@
+.header {
+	background-color: #008000;
+	@include media-adaptiv-font(50, 20);
+}

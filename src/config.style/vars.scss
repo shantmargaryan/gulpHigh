@@ -1,0 +1,18 @@
+$wrapperWidth: 1440;
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+:root {
+	// base
+	--font-family: "Open Sans", "sans-serif";
+	--content-width: 1170px;
+	--container-offset: 15px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+	// colors
+	--light-color: #fff;
+}
